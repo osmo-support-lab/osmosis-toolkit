@@ -1,9 +1,9 @@
 {
-  "name": "osmosis-toolkit-quasar",
+  "name": "osmosis-toolkit",
   "version": "0.0.1",
   "description": "A lite, easy to use toolkit for interacting with the Osmosis Blockchain.",
   "productName": "Osmosis Toolkit",
-  "author": "jasbanza",
+  "author": "Osmosis Support Lab",
   "private": true,
   "license": "MIT",
   "keywords": [
@@ -12,12 +12,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jasbanza/osmosis-toolkit.git"
+    "url": "git+https://github.com/osmo-support-lab/osmosis-toolkit.git"
   },
   "bugs": {
-    "url": "https://github.com/jasbanza/osmosis-toolkit/issues"
+    "url": "https://github.com/osmo-support-lab/osmosis-toolkit/issues"
   },
-  "homepage": "https://github.com/jasbanza/osmosis-toolkit#readme",
+  "homepage": "https://github.com/osmo-support-lab/osmosis-toolkit#readme",
   "scripts": {
     "dev": "quasar dev",
     "lint": "eslint --ext .js,.ts,.vue ./",
