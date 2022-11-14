@@ -1,0 +1,63 @@
+{
+  "name": "osmosis-toolkit-quasar",
+  "version": "0.0.1",
+  "description": "A lite, easy to use toolkit for interacting with the Osmosis Blockchain.",
+  "productName": "Osmosis Toolkit",
+  "author": "jasbanza",
+  "private": true,
+  "license": "MIT",
+  "keywords": [
+    "Osmosis",
+    "Keplr"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasbanza/osmosis-toolkit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jasbanza/osmosis-toolkit/issues"
+  },
+  "homepage": "https://github.com/jasbanza/osmosis-toolkit#readme",
+  "scripts": {
+    "lint": "eslint --ext .js,.ts,.vue ./",
+    "format": "prettier --write \"**/*.{js,ts,vue,scss,html,md,json}\" --ignore-path .gitignore",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@chain-registry/osmosis": "^1.5.0",
+    "@cosmjs/amino": "^0.29.3",
+    "@cosmjs/cosmwasm-stargate": "^0.29.3",
+    "@cosmjs/proto-signing": "^0.29.3",
+    "@cosmjs/stargate": "^0.29.3",
+    "@cosmos-kit/core": "^0.24.0",
+    "@fortawesome/fontawesome-pro": "^6.2.0",
+    "@keplr-wallet/types": "^0.11.16",
+    "@quasar/extras": "^1.0.0",
+    "big.js": "^6.2.1",
+    "cosmjs-types": "^0.5.2",
+    "osmojs": "^0.36.0",
+    "postcss": "^8.4.19",
+    "quasar": "^2.6.0",
+    "vue": "^3.0.0",
+    "vue-router": "^4.0.0",
+    "webpack": "^5.75.0"
+  },
+  "devDependencies": {
+    "@quasar/app-vite": "^1.0.0",
+    "@types/big.js": "^6.1.6",
+    "@types/node": "^12.20.21",
+    "@typescript-eslint/eslint-plugin": "^5.10.0",
+    "@typescript-eslint/parser": "^5.10.0",
+    "autoprefixer": "^10.4.2",
+    "eslint": "^8.10.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-vue": "^9.0.0",
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.4"
+  },
+  "engines": {
+    "node": "^18 || ^16 || ^14.19",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}

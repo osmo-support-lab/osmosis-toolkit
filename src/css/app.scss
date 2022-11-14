@@ -1,0 +1,11 @@
+// app global css in SCSS form
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Inter&family=Poppins');
+
+body {
+  font-family: $basic;
+  font-size: 14px;
+}
+
+h1 {
+  font-family: $header;
+}
