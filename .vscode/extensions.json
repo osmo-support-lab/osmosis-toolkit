@@ -4,7 +4,9 @@
     "esbenp.prettier-vscode",
     "editorconfig.editorconfig",
     "vue.volar",
-    "wayou.vscode-todo-highlight"
+    "wayou.vscode-todo-highlight",
+    "seatonjiang.gitmoji-vscode",
+    "yzhang.markdown-all-in-one"
   ],
   "unwantedRecommendations": [
     "octref.vetur",

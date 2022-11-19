@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-6">
           <q-img
-            src="~assets/osmoToolKit_temp-01.svg"
+            src="~assets/OsmoToolKitBanner.svg"
             alt="Osmosis Toolkit"
             aria-hidden="true"
           >

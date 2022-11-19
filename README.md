@@ -120,4 +120,3 @@ yarn format
 [keplr_home]: https://keplr.app/
 [osmojs_gh]: https://github.com/osmosis-labs/osmojs
 [coming_soon]: https://img.shields.io/badge/Status%3A-Coming%20Soon-red
-[config_quasar]: https://quasar.dev/quasar-cli-vite/quasar-config-js

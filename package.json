@@ -1,6 +1,6 @@
 {
   "name": "osmosis-toolkit",
-  "version": "0.0.1",
+  "version": "0.0.0-alpha-0.1.0",
   "description": "A lite, easy to use toolkit for interacting with the Osmosis Blockchain.",
   "productName": "Osmosis Toolkit",
   "author": "Osmosis Support Lab",
@@ -36,6 +36,7 @@
     "@quasar/extras": "^1.0.0",
     "big.js": "^6.2.1",
     "cosmjs-types": "^0.5.2",
+    "dotenv": "^16.0.3",
     "osmojs": "^0.36.0",
     "postcss": "^8.4.19",
     "quasar": "^2.6.0",
@@ -44,10 +45,10 @@
     "webpack": "^5.75.0"
   },
   "devDependencies": {
+    "@keplr-wallet/types": "^0.11.16",
     "@quasar/app-vite": "^1.0.0",
     "@types/big.js": "^6.1.6",
     "@types/node": "^12.20.21",
-    "@keplr-wallet/types": "^0.11.16",
     "@typescript-eslint/eslint-plugin": "^5.10.0",
     "@typescript-eslint/parser": "^5.10.0",
     "autoprefixer": "^10.4.2",
