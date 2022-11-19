@@ -34,6 +34,7 @@
     "@cosmos-kit/core": "^0.24.0",
     "@fortawesome/fontawesome-pro": "^6.2.0",
     "@quasar/extras": "^1.0.0",
+    "axios": "^0.27.2",
     "big.js": "^6.2.1",
     "cosmjs-types": "^0.5.2",
     "dotenv": "^16.0.3",
