@@ -112,7 +112,7 @@ yarn format
 
 [MIT](/LICENSE)
 
-[logo]: src/assets/osmoToolKit_temp.png
+[logo]: src/assets/OsmoToolKitBanner.svg
 [material_design]: https://m3.material.io/
 [quasar]: https://quasar.dev/
 [vue]: https://vuejs.org/
