@@ -2,14 +2,12 @@
   <q-layout view="lHr Lpr lFr">
     <q-header elevated class="text-white" height-hint="98">
       <div class="row">
-        <div class="col-6">
-          <q-img
+          <img
             src="~assets/OsmoToolKitBanner.svg"
             alt="Osmosis Toolkit"
             aria-hidden="true"
+            id="banner"
           >
-          </q-img>
-        </div>
       </div>
 
       <q-tabs align="center">
@@ -37,6 +35,11 @@
 <style lang="scss">
 .row {
   justify-content: center;
+}
+#banner {
+  @media only screen and (max-width: 620px) {
+    width: 275px;
+  }
 }
 .q-header {
   background-color: $dark;
